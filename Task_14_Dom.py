@@ -6,7 +6,7 @@ num = float(input('Введите число: '))
 num1 = str(num)
 length = len(num1)
 print(length)
-num = num * 10**(length-2)
+num = num * 10**(length)
 print(num)
 sum = 0
 while (num != 0):
